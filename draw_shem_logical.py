@@ -7,6 +7,7 @@ d+=elm.Line().right()
 d+=elm.Battery().label("E_b 5.7 V").up
 d+=elm.Resistor().label("R_B 100 K OHM").left
 d+=elm.MeterA()
+d+=elm.Dot()
 d.push()
 d+=elm.Line().right
 d+=elm.Bjt()
